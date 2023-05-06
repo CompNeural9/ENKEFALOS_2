@@ -1,2 +1,2 @@
 # Enkefalos
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KrishU27/Enkefalos/main?labpath=Enkefalos.ipynb)
+https://colab.research.google.com/github/KrishU27/Enkefalos/blob/main/Enkefalos.ipynb
