@@ -1,6 +1,13 @@
+<img width="355" alt="image" src="https://github.com/KrishU27/Enkefalos/assets/132734331/abfdacd5-d3c5-4436-aa32-ac153885e79b">
 # Enkefalos
 Here you will find the code, as well as the input and output data, for our Enkefalos computational tool. Data was derived from a study done by the Pavlidis Lab at the University of British Columbia. You can find the description of the data and how it was derived [here](https://github.com/PavlidisLab/transcriptomic_correlates).
 # Notebook
-You can access the Jupyter Notebook with the code [here](https://mybinder.org/v2/gh/KrishU27/Enkefalos/main?labpath=ENKEFALOS.ipynb). Do make sure to run the cells in order. There are 9 main sections in this notebook.
-- The first section will ask you to input your genes of interest for analyses.
-- The second section 
+You can access the Jupyter Notebook with the code [here](https://mybinder.org/v2/gh/KrishU27/Enkefalos/main?labpath=ENKEFALOS.ipynb). Do make sure to run the cells in order. There are several sections in this notebook.
+- Takes in your genes of interest (GOI) as well as a FDR threshold for analyses.
+- Displays genes from your (GOI) that had significant correlations with electrophysiological/morphological measures.
+- Prints out the number of enriched genes as well as what the genes with significant correlations are.
+- Calls StringDB to create a gene interactome of your enriched genes. Will tabulate the number of interactions each gene has.
+- Will give the option to create a smaller subset network given certain parameters.
+- Will allow you to obtain multiple or singular correlation plots of a gene of interest and electrophysiological/morphological measures.
+- Shows the plot data of the correlation plots of a gene of interest.
+#Citations
