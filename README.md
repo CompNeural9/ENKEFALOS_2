@@ -8,7 +8,7 @@ Here you will find the code, as well as the input and output data, for our Enkef
 </p>
 
 # Notebook
-You can access the Jupyter Notebook with the code [here](https://mybinder.org/v2/gh/KrishU27/Enkefalos/main?labpath=ENKEFALOS.ipynb). Do make sure to run the cells in order. There are several sections in this notebook.
+You can access the Jupyter Notebook with the code [here](https://mybinder.org/v2/gh/krishu27/Enkefalos/main?filepath=ENKEFALOS.ipynb). Do make sure to run the cells in order. There are several sections in this notebook.
 - Takes in your genes of interest (GOI) as well as a FDR threshold for analyses.
 - Displays genes from your GOI that had significant correlations with electrophysiological/morphological measures.
 - Prints out the number of enriched genes as well as what the genes with significant correlations are.
