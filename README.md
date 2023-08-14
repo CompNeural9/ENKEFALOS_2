@@ -6,7 +6,7 @@ Here you will find the code, as well as the input and output data, for our Enkef
 # Notebook
 You can access the Jupyter Notebook with the code [here](https://mybinder.org/v2/gh/KrishU27/Enkefalos/main?labpath=ENKEFALOS.ipynb). Do make sure to run the cells in order. There are several sections in this notebook.
 - Takes in your genes of interest (GOI) as well as a FDR threshold for analyses.
-- Displays genes from your (GOI) that had significant correlations with electrophysiological/morphological measures.
+- Displays genes from your GOI that had significant correlations with electrophysiological/morphological measures.
 - Prints out the number of enriched genes as well as what the genes with significant correlations are.
 - Calls StringDB to create a gene interactome of your enriched genes. Will tabulate the number of interactions each gene has.
 - Will give the option to create a smaller subset network given certain parameters.
