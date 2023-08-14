@@ -1,5 +1,6 @@
 <p align="center">
   <img width="355" alt="image" src="https://github.com/KrishU27/Enkefalos/assets/132734331/cc7bc648-a2a7-4367-9802-24e2c0df23f0">
+  
   v 1.0.0
 </p>
 
