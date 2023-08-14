@@ -1,5 +1,6 @@
 <p align="center">
   <img width="355" alt="image" src="https://github.com/KrishU27/Enkefalos/assets/132734331/cc7bc648-a2a7-4367-9802-24e2c0df23f0">
+  v 1.0.0
 </p>
 
 Here you will find the code, as well as the input and output data, for our Enkefalos computational tool. Data was derived from a study done by the Pavlidis Lab at the University of British Columbia. You can find the description of the data and how it was derived [here](https://github.com/PavlidisLab/transcriptomic_correlates).
