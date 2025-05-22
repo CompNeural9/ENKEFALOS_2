@@ -32,7 +32,7 @@
   "public": true,
   "license": "CC-BY-NC-SA-4.0",
   "appyter": {
-    "file": "ENKEFALOS_appyter.ipynb",
+    "file": "ENKEFALOS_appyter2.ipynb",
     "profile": "biojupies",
     "extras": [
       "hide-code",
