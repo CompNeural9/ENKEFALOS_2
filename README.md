@@ -1,4 +1,4 @@
-This appyter takes a list of differentially expressed genes (recommended to be from a neural tissue/cell sample) and helps identify genes that are significantly associated with neural electrophysiological and/or morphological measures using data derived from a study done by the Pavlidis Lab at the University of British Columbia. You can find the description of the data and how it was derived [here](https://github.com/PavlidisLab/transcriptomic_correlates). Please note that there are two appyter that compose ENKEFALOS, the first one being for multi-gene analysis, and the second one being for single-gene analysis (designed for more downstream analyses after the first).
+This appyter is the second part of the two-part ENKEFALOS analysis pipeline. This appyter will take a gene of interest (recommended to be a gene that was enriched based on the first ENKEFALOS appyter's analysis) and a neural electrophysiological/morphological measure of interest and provide you the plot/plot data for the relationship between the two measures. It will also take the list of enriched genes from your prior analysis and create a subset gene interactome network with your gene of interest at the center. You can find the description of the data and how it was derived [here](https://github.com/PavlidisLab/transcriptomic_correlates). Please note that this is the second part of the ENKEFALOS appyter analysis pipeline and in order for your analysis to be done properly, we suggest first performing your analysis using the first ENKEFALOS appyter before this one.
 
 # Framework
 
@@ -7,12 +7,6 @@ This appyter takes a list of differentially expressed genes (recommended to be f
 </p>
 
 There are several sections in this appyter, for which we have a brief overview below. If you would like a more comprehensive guide to how to use ENKEFALOS, please refer to our user guide [here](https://docs.google.com/document/d/15h8A65FygTK2_KLA_-6R8u8clJSRnF7yHLFAvN7BN6Y/edit?tab=t.0#heading=h.ola4n01ccsle).
-
-Appyter 1:
-- Takes in your genes of interest (GOI) as well as a FDR threshold for analyses.
-- Displays genes from your GOI that had significant correlations with electrophysiological/morphological measures.
-- Prints out the number of enriched genes as well as what the genes with significant correlations are.
-- Calls StringDB to create a gene interactome of your enriched genes. Will tabulate the number of interactions each gene has.
   
 Appyter 2
 - Will give the option to create a smaller subset network given certain parameters.
