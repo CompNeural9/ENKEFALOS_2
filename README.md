@@ -13,5 +13,5 @@ Appyter 2
 - Will allow you to obtain multiple or singular correlation plots of a gene of interest and electrophysiological/morphological measures.
 - Shows the plot data of the correlation plots of a gene of interest.
 
-# Citing
+# Reference
 1. [Bomkamp C, Tripathy SJ, Bengtsson Gonzales C, Hjerling-Leffler J, Craig AM, et al. (2019) Transcriptomic correlates of electrophysiological and morphological diversity within and across excitatory and inhibitory neuron classes. PLOS Computational Biology 15(6): e1007113.](https://journals.plos.org/ploscompbiol/article/citation?id=10.1371/journal.pcbi.1007113)
